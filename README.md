@@ -1,5 +1,5 @@
 # <p align="center"> Smart City: Traffic prediction using Deep Learning </p>
-By Banan Alhethlool | banan.alhethlool@gmail.com
+
 
 ## Introduction:
 
