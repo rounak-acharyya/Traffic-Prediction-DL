@@ -9,7 +9,7 @@ Traffic prediction is very important for any urban city, especially in crowded a
 
 ## 📊 Dataset
 
-The dataset for this project consists of datetime, vehicles, and junction information. The data is collected from sensors at every junction. It has over 48, 000 observations and was obtained as an open-source from Kaggle, [Here.](https://www.kaggle.com/fedesoriano/traffic-prediction-dataset)
+The dataset for this project consists of datetime, vehicles, and junction information. The data is collected from sensors at every junction. It has over 48,000 observations and was obtained as an open-source from Kaggle, [Here.](https://www.kaggle.com/fedesoriano/traffic-prediction-dataset)
 
 ## 🧠 Solution Approach
 We build separate GRU-based deep learning models to capture temporal dependencies in traffic flow at four different junctions.
