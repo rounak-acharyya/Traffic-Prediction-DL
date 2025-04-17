@@ -15,50 +15,51 @@ The dataset for this project consists of datetime, vehicles, and junction inform
 We build separate GRU-based deep learning models to capture temporal dependencies in traffic flow at four different junctions.
 
 Key Steps:
-Data Preprocessing:
 
-Parsing datetime
+1. Data Preprocessing:
 
-Extracting features like year, month, day, hour, day of the week, and quarter
+   • Parsing datetime
 
-Exploratory Data Analysis:
+   • Extracting features like year, month, day, hour, day of the week, and quarter
 
-Histograms and line plots to analyze traffic distribution
+2. Exploratory Data Analysis:
 
-Correlation matrix to assess feature relationships
+   • Histograms and line plots to analyze traffic distribution
 
-Data Transformation:
+   • Correlation matrix to assess feature relationships
 
-Normalization and differencing to stationarize the time series
+3. Data Transformation:
 
-Feature Engineering:
+   • Normalization and differencing to stationarize the time series
 
-Creating input-output sequences for sequence modeling
+4. Feature Engineering:
 
-Model Building:
+   • Creating input-output sequences for sequence modeling
 
-GRU layers with dropout for regularization
+5. Model Building:
 
-Early stopping to prevent overfitting
+   • GRU layers with dropout for regularization
 
-Model Evaluation:
+   • Early stopping to prevent overfitting
 
-Root Mean Squared Error (RMSE)
+6. Model Evaluation:
 
-Comparative line plots of predictions vs. actual values
+   • Root Mean Squared Error (RMSE)
+
+   • Comparative line plots of predictions vs. actual values
 
 ## 🧰 Tech Stack
 
-Languages: Python
+• Languages: Python
 
-Environment: Jupyter Notebook
+• Environment: Jupyter Notebook
 
-Libraries:
+• Libraries:
 
-Pandas, NumPy — Data handling
+   • Pandas, NumPy — Data handling
 
-Seaborn, Matplotlib — Visualization
+   • Seaborn, Matplotlib — Visualization
 
-TensorFlow, Keras — Deep Learning
+   • TensorFlow, Keras — Deep Learning
 
-Statsmodels, Scikit-learn — Preprocessing & Metrics
+   • Statsmodels, Scikit-learn — Preprocessing & Metrics
